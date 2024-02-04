@@ -144,7 +144,7 @@ class Backend {
         return [true, SessionToken];
     }
     public async WhitelistAsset(AssetId: number, UserId: number) {
-        const CreatorOwnedItem = await this.CheckIfUserOwnItem(AssetId, 138801491);
+        const CreatorOwnedItem = await this.CheckIfUserOwnItem(AssetId, 5527624113);
         if (CreatorOwnedItem)
             return CreateOutput(this.OutputCodes.ALREADY_WHITELISTED);
 
